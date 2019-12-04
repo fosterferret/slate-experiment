@@ -16,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/fosterferret/slate-experiment/issues"
   },
-  "homepage": "https://github.com/fosterferret/slate-experiment#readme"
+  "homepage": "https://github.com/fosterferret/slate-experiment#readme",
+  "dependencies": {
+    "slate": "^0.50.8",
+    "slate-history": "^0.50.10",
+    "slate-react": "^0.50.11"
+  }
 }
