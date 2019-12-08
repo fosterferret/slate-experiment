@@ -13,6 +13,8 @@ const MARK_HOTKEYS = {
   'mod+`': 'code',
 }
 
+
+
 const RichTextExample = () => {
   const renderElement = useCallback(props => <Element {...props} />, [])
   const renderMark = useCallback(props => <Mark {...props} />, [])
@@ -129,6 +131,7 @@ const Element = ({ attributes, children, element }) => {
 }
 
 const Mark = ({ attributes, children, mark }) => {
+  // eslint-disable-next-line default-case
   switch (mark.type) {
     case 'bold':
       return <strong {...attributes}>{children}</strong>
